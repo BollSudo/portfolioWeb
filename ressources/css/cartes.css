@@ -1,0 +1,102 @@
+/* Variables */
+:root {
+    --hauteurCarte: 300px;
+    --largeurCarte: 300px;
+    --couleurCarte: rgba(147, 144, 144, 0.62)
+}
+
+/* Template Base main */
+body {
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+/* Gestion Cartes */
+.conteneurCartes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    height: inherit;
+    width: inherit;
+}
+
+.carte {
+    position: absolute;
+    background: rgb(128 128 128 / 0.2);
+    border-radius: 20px;
+    transition: all ease-in-out 1s;
+    padding: 3px;
+    overflow: hidden;
+}
+
+.inner {
+    background-color: var(--couleurCarte);
+    height: var(--hauteurCarte);
+    width: var(--largeurCarte);
+    border-radius: 20px;
+}
+
+.blob {
+    filter: blur(40px);
+    position: absolute;
+    z-index: -1; /* to keep it at below everything else */
+    top: 0; /* to align it at top */
+    left: 0; /* to align it at left */
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; /* to make it circular */
+    background: rgb(255, 255, 255, 0.5);
+}
+
+.fakeblob {
+    visibility: hidden;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.conteneurCartes:hover > .carte:hover {
+    /*background-color: #4d4d4d;*/
+}
+
+
+/* Mouvement des cartes */
+.conteneurCartes:hover > .carte:nth-last-child(6) {
+    transform: translate(calc(100% + 4px), calc(-50% - 2px));
+}
+.conteneurCartes:hover > .carte:nth-last-child(5) {
+    transform: translate(calc(100% + 4px), calc(50% + 2px)) ;
+}
+.conteneurCartes:hover > .carte:nth-last-child(4) {
+    transform: translate(0, calc(-50% - 2px)) ;
+}
+.conteneurCartes:hover > .carte:nth-last-child(3) {
+    transform: translate(0, calc(50% + 2px)) ;
+}
+.conteneurCartes:hover > .carte:nth-last-child(2) {
+    transform: translate(calc(-100% - 4px), calc(50% + 2px)) ;
+}
+.conteneurCartes:hover > .carte:last-child {
+    transform: translate(calc(-100% - 4px), calc(-50% - 2px)) ;
+}
+
+
+
+
