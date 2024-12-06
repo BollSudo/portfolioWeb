@@ -1,4 +1,4 @@
-<link href="../ressources/css/cartes.css" rel="stylesheet">
+<link href="../ressources/scss/cartes.css" rel="stylesheet">
 <div class="conteneurCartes">
     <div class="carte carte1">
         <div class="inner">

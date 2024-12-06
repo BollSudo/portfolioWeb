@@ -1,0 +1,27 @@
+/* Template Base main */
+body {
+  margin: 0 auto;
+}
+
+header {
+  height: fit-content;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: fit-content;
+  min-height: 100vh;
+  background-color: black;
+}
+
+.mouse-trail {
+  position: absolute;
+  background-color: #0a58ca;
+  z-index: 1000;
+  height: 5Opx;
+  width: 50px;
+}
