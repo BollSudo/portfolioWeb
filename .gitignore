@@ -2,6 +2,7 @@
 .vscode/
 *.env
 *.vscode
+/ressources/bootstrap/scss/
 
 # Template de https://gist.github.com/octocat/9257657
 # Compiled source #
