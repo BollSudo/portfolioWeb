@@ -14,7 +14,7 @@
                 <a class="nav-link" href="router.php?action=afficherHero&controleur=base">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="router.php?action=afficherProjets&controleur=base">Projects</a>
+                <a class="nav-link" href="router.php?action=afficherProjets&controleur=base">Projets</a>
             </li>
 <!--            <li class="nav-item">-->
 <!--                <a class="nav-link" href="#">Contact</a>-->

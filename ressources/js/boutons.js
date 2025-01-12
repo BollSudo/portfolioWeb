@@ -3,7 +3,7 @@ const heroBgVideo = document.getElementById("heroBgVideo");
 const actualHeroBg = document.getElementById("actualHeroBg");
 let heroBgVideoEnCours = false;
 
-let heroBgVideoSRC = ["bg-video-purpleNebula.mp4", "bg-video-galaxy.mp4"];
+let heroBgVideoSRC = ["bg-video-purpleNebula.mp4", "bg-video-space-galaxy.mp4", "bg-video-bh.mp4", "bg-video-blue-space.mp4"];
 let maskImageSRC = ["transition-ink", "transition-inkSplash1", "transition-inkSplash2"];
 let actualSRC = heroBgVideoSRC[0];
 
@@ -12,7 +12,7 @@ function pickRandomVideo() {
 }
 
 function pickRandomMaskImage() {
-    return "../ressources/img/" + maskImageSRC[Math.floor(Math.random() * (heroBgVideoSRC.length))] + ".gif";
+    return "../ressources/img/" + maskImageSRC[Math.floor(Math.random() * (maskImageSRC.length))] + ".gif";
 }
 
 boutonSpecial.addEventListener("mouseenter", ev => {
