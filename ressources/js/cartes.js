@@ -19,6 +19,5 @@ window.addEventListener("mousemove", (e) => {
                 fill: "forwards",
             }
         );
-
     });
 });

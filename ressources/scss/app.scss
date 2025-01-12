@@ -1,27 +1,176 @@
+$headerHeight: 10vh;
+$footerHeight: 30vh;
+
 /* Template Base main */
 body {
   margin: 0 auto;
 }
 
 header {
-  height: fit-content;
+  height: $headerHeight;
+  padding: 0;
+}
+
+nav {
+  height: 100%;
 }
 
 main {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
+  flex-direction: column;
   height: fit-content;
   min-height: 100vh;
-  background-color: black;
 }
 
-.mouse-trail {
-  position: absolute;
-  background-color: #0a58ca;
-  z-index: 1000;
-  height: 5Opx;
-  width: 50px;
+.canvasWrap {
+  position: relative;
+  width: 100%;
 }
+
+.canvas {
+  width: 100%;
+  height: 200vh;
+  background-color: transparent;
+  position: absolute;
+  z-index: 1;
+}
+
+#heroContainer {
+  padding: 0;
+  margin: 0;
+  height: calc(100vh - $headerHeight);
+  position: relative;
+  overflow: hidden;
+}
+
+.heroBgContainer {
+  position: absolute;
+  padding: 0;
+  height: 100%;
+  width: auto;
+  z-index: -1;
+}
+
+
+//#heroContainer::before {
+//  content: '';
+//  background-image: var(--currentHeroBg);
+//  visibility: hidden;
+//  filter: blur(5px);
+//}
+
+.actualHeroBg {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  mask-position: center;
+  mask-size: cover;
+  z-index: 0;
+}
+
+#heroBgVideo {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  mask-position: center;
+  mask-size: cover;
+}
+
+.actualHeroBg, #heroContainer::before {
+  //position: absolute;
+  //top: 50%;
+  //left: 50%;
+  //width: calc(100vw + 50vh);
+  //height: calc(100vw + 50vh);
+  //background-size: cover;
+  //background-position: center;
+  //z-index: -1;
+  //transform: translate(-50%, -50%) rotate(0);
+  //animation: 360s rotate infinite linear;
+  //animation-play-state: var(--animationState);
+}
+
+#leftContainer, #rightContainer, #midContainer {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+#leftContainer {
+  //background-color: rgba(119, 136, 153, 0.29);
+}
+
+#midContainer {
+
+}
+
+.contentBannerBox {
+  height: fit-content;
+  min-height: 80%;
+  width: 80%;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.95);
+  border: solid 2px rgba(45, 45, 154, 0.18);
+  border-radius: 20px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.heroTitle {
+  padding: 0 10%;
+}
+
+.heroBioContainer {
+  padding: 0 10% 5% 10%;
+}
+
+.heroBioText {
+  text-align: justify;
+  text-justify: auto;
+}
+
+.socialsContainer {
+  gap: 10px;
+}
+
+.fa {
+  font-size: 1.5em;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: black;
+  z-index: 10;
+}
+
+.fa:link, .fa:visited {
+  text-decoration: none;
+}
+
+#contentContainer {
+
+}
+
+
+
+
+
+
+
+

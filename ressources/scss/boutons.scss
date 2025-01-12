@@ -1,0 +1,53 @@
+.btn-hero {
+  background-color: black;
+  height: 5rem;
+  width: 5rem;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  opacity: 0.7;
+  transition: 0.3s opacity ease-in-out;
+}
+
+.btn-hero:hover {
+  opacity: 1;
+  background-color: black;
+}
+
+#btn-stopAnimation {
+  transform: scale(1);
+  transition: 1.2s all ease-in-out;
+}
+
+#btn-stopAnimation img {
+  transform: scale(0.7);
+  transition: 0.3s all ease-in-out;
+}
+
+#btn-stopAnimation:hover img {
+  transform: scale(0.8);
+  transition: 0.3s all ease-in-out;
+}
+
+#btn-special img {
+  height: 100%;
+  width: 100%;
+  transform: scale(1) rotate(15deg);
+  filter: blur(1px);
+  transition: transform 0.3s ease;
+  transform-origin: center center;
+}
+
+#btn-special:hover img {
+  transform: scale(1.3);
+  opacity: 1;
+  filter: blur(0);
+}
+
+button img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  inset: 0;
+  transform: scale(0.8);
+}
