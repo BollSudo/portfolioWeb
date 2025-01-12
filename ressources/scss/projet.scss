@@ -1,4 +1,26 @@
-@import "app";
+@import "custom";
+
+.boutonBack {
+  background-color: $link-color;
+  color: $primary;
+  margin-top: 2vh;
+  padding: 0.5vh 1vw;
+  width: fit-content;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  text-decoration: none;
+}
+
+.boutonBack:hover {
+  opacity: 0.7;
+}
+
+.titreProjet {
+  padding-bottom: 2vh;
+}
+.sousTitreProjet, .partieProjet {
+  padding-top: 2vh;
+}
 
 .conteneurProjet {
   margin: 5vh 5vw;
@@ -8,18 +30,35 @@
   text-align: justify;
 }
 
-
-
-
-// gallery from https://www.geeksforgeeks.org/how-to-make-image-gallery-using-html-css-and-javascript/
-
-.galleryContainer {
+.galleryContainer, .galleryContainerTrains {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(10vw, 27vw));
   align-items: center;
   justify-content: center;
   gap: 10px;
   padding: 20px;
+}
+
+.galleryItem, .galleryItemTrains {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.galleryContainerTrains {
+  grid-template-columns: repeat(auto-fill, minmax(10vw, 27vw));
+}
+
+.trains {
+  max-height: 32vh;
+}
+
+.php {
+  max-height: 20vh;
+}
+
+// gallery inspired from https://www.geeksforgeeks.org/how-to-make-image-gallery-using-html-css-and-javascript/
+
+.galleryContainer {
+  grid-template-columns: repeat(auto-fill, minmax(10vw, 27vw));
 }
 
 .titleConteneur {
@@ -33,12 +72,6 @@
   align-items: center;
   justify-content: center;
   gap: 2vw
-}
-
-.galleryItem {
-  border-radius: 10px;
-  overflow: hidden;
-  max-height: 20vh;
 }
 
 .galleryItem:hover {
@@ -100,3 +133,4 @@
   text-decoration: none;
   cursor: pointer;
 }
+

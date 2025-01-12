@@ -13,7 +13,7 @@ class ControleurBase {
 
     public static function afficherProjet() {
         if (!isset($_REQUEST["numProjet"])) {
-            echo "error";
+            echo "Erreur : nous n'avons pas pu trouver ce projet..."; //TODO page d'erreur
         }
         self::afficherVue("projets/projet{$_REQUEST["numProjet"]}.php");
     }

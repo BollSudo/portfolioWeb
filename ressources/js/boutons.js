@@ -42,7 +42,7 @@ boutonSpecial.addEventListener("click", ev => {
         heroBgVideoEnCours ? heroBgVideo.play() : heroBgVideo.pause();
     } else {
         heroBgVideo.style.maskImage =  "none";
-        actualHeroBg.style.backgroundColor = "black";
+        actualHeroBg.style.backgroundColor = "#121212";
         actualHeroBg.style.maskImage =  `url("${pickRandomMaskImage()}?${timestamp}")`;
     }
     On = !On;

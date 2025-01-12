@@ -3,6 +3,8 @@
 *.env
 *.vscode
 /ressources/bootstrap/scss/
+/ressources/scss/*.css
+/ressources/scss/*.css.map
 
 # Template de https://gist.github.com/octocat/9257657
 # Compiled source #

@@ -1,10 +1,9 @@
 <link href="../ressources/scss/projet.css" rel="stylesheet">
 
+<a class="boutonBack" href="router.php?action=afficherProjets&controleur=base">Revenir en arrière</a>
 <div class="conteneurProjet">
     <h1 class="titreProjet">NDI 2024</h1>
 
-
-    <a href="router.php?action=afficherProjets&controleur=base">Go Back</a>
     <section>
         <h2 class="sousTitreProjet">Contexte</h2>
         <p class="contentProjet">
@@ -25,20 +24,17 @@
         <ul class="listTraces">
             <li><a href="https://ndi2024.jumperboost.fr/">Lien vers le site web</a></li>
         </ul>
-
-
-
         <p class="contentProjet"></p>
     </section>
     <section>
         <h2 class="sousTitreProjet">Contributeurs</h2>
         <ul class="listContributors">
-            <li class="contributor">Milwenn F.</li>
-            <li class="contributor">Rigaux H.</li>
-            <li class="contributor">Nathan Raphaël L.</li>
-            <li class="contributor">Badis S.</li>
             <li class="contributor">Alexandre D.</li>
+            <li class="contributor">Badis S.</li>
+            <li class="contributor">Héloïse R.</li>
             <li class="contributor">Julien R.</li>
+            <li class="contributor">Milwenn F.</li>
+            <li class="contributor">Nathan Raphaël L.</li>
         </ul>
         <p class="contentProjet"></p>
     </section>

@@ -1,10 +1,10 @@
 <link href="../ressources/scss/projet.css" rel="stylesheet">
 
+<a class="boutonBack" href="router.php?action=afficherProjets&controleur=base">Revenir en arrière</a>
 <?php $projectImgDir = "saephp" ?>
 <div class="conteneurProjet">
-    <h1 class="titreProjet">Projet SAE</h1>
+    <h1 class="titreProjet">Projet StudAdvisor</h1>
 
-    <a href="router.php?action=afficherProjets&controleur=base">Go Back</a>
     <section>
         <h2 class="sousTitreProjet">Contexte</h2>
         <p class="contentProjet">Dans le cadre du projet tuteuré du semestre trois de BUT Informatique, il nous a été demandé de développer un <b>site web dynamique, portable et sécurisé en PHP</b>. Ce cite web devait répondre aux besoins clients du responsable d'études et avais pour objectif primaire de favoriser l'aide à la poursuite d'études des étudiants de BUT3. Le projet s'étend sur une durée d'environ quatre mois et s'est fait en équipe de cinq étudiants.</p>
@@ -21,43 +21,43 @@
     <section>
         <h2 class="sousTitreProjet">Traces <small><a href="https://github.com/BollSudo/A2-SAE-PHP" title="Lien du dépot git" class="fa"><span class="fa-github"></span></a></small></h2>
         <div class="galleryContainer">
-            <div class="galleryItem">
+            <div class="galleryItem php">
                 <img src="../ressources/img/<?=$projectImgDir?>/agreg.png"
                      title="Page liste d'agrégations"
                      onclick="openModal(this.src, this.title)"
                      alt="Image 1">
             </div>
-            <div class="galleryItem">
+            <div class="galleryItem php">
                 <img src="../ressources/img/<?=$projectImgDir?>/agregform.png"
                      title="Formulaire création d'agrégations"
                      onclick="openModal(this.src, this.title)"
                      alt="Image 2">
             </div>
-            <div class="galleryItem">
+            <div class="galleryItem php">
                 <img src="../ressources/img/<?=$projectImgDir?>/etudinfos.png"
                      title="Page dossier étudiant"
                      onclick="openModal(this.src, this.title)"
                      alt="Image 3">
             </div>
-            <div class="galleryItem">
+            <div class="galleryItem php">
                 <img src="../ressources/img/<?=$projectImgDir?>/importation.png"
                      title="Page importation"
                      onclick="openModal(this.src, this.title)"
                      alt="Image 4">
             </div>
-            <div class="galleryItem">
+            <div class="galleryItem php">
                 <img src="../ressources/img/<?=$projectImgDir?>/login.png"
                      title="Authentification"
                      onclick="openModal(this.src, this.title)"
                      alt="Image 5">
             </div>
-            <div class="galleryItem">
+            <div class="galleryItem php">
                 <img src="../ressources/img/<?=$projectImgDir?>/modeleAgregation.png"
                      title="Diagramme de classes UML : Système d'agrégations"
                      onclick="openModal(this.src, this.title)"
                      alt="Image 6">
             </div>
-            <div class="galleryItem">
+            <div class="galleryItem php">
                 <img src="../ressources/img/<?=$projectImgDir?>/modeleImport.png"
                      title="Diagramme de classes UML : Système d'importation"
                      onclick="openModal(this.src, this.title)"
@@ -69,42 +69,20 @@
                     <h3 class="modal-title" id="modalTitle"></h3>
                     <span class="close" onclick="closeModal()">&times;</span>
                 </div>
-
                 <img class="modal-content" id="modalImage"">
             </div>
-
         </div>
         <p class="contentProjet"></p>
     </section>
     <section>
         <h2 class="sousTitreProjet">Contributeurs</h2>
         <ul class="listContributors">
-            <li class="contributor">Milwenn F.</li>
-            <li class="contributor">Bryan B.</li>
-            <li class="contributor">Nathan Raphaël L.</li>
             <li class="contributor">Adam L.</li>
+            <li class="contributor">Bryan B.</li>
             <li class="contributor">Julien R.</li>
+            <li class="contributor">Milwenn F.</li>
+            <li class="contributor">Nathan Raphaël L.</li>
         </ul>
         <p class="contentProjet"></p>
     </section>
 </div>
-<script>
-    function openModal(imageSrc, title) {
-        let modal = document.getElementById("myModal");
-        let modalImg = document.getElementById("modalImage");
-        let modalTitle = document.getElementById("modalTitle");
-        modalTitle.innerHTML = title;
-        modal.style.display = "block";
-        modalImg.src = imageSrc;
-
-    }
-
-    function closeModal() {
-        let modal = document.getElementById("myModal");
-        modal.style.display = "none";
-    }
-
-</script>
-
-
-

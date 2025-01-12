@@ -1,15 +1,72 @@
 /* Variables */
-@import "app";
+@import "custom";
 
-$carte-height: 50vh - $header-height;
+@font-face {
+  font-family: "DancetechBold";
+  src: url("../fonts/DancetechBold-3rj8.ttf") format("truetype");
+}
+
+h1.pageTitle {
+  text-align: center;
+  padding-bottom: 2vh;
+}
+
+.codeLang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 70px;
+  width: 100%;
+}
+img.codeLogo {
+  height: 50px;
+  object-fit: contain;
+}
+
+h2.cardTitle {
+  font-family: "DancetechBold", Arial, sans-serif;
+  font-size: 3rem;
+}
+
+.carte:hover {
+  background-color: $link-color;
+  transition: 1s ease-in-out;
+}
+
+h2.cardTitle, h3.cardSubtitle {
+  text-align: center;
+  margin: 0;
+}
+h3.cardSubtitle {
+  padding-bottom: 2vh;
+  font-size: 1.5rem;
+}
+
+.projectInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.projectInfo img {
+  height: 25%;
+  max-width: 80%;
+}
+
+
+$carte-height: 60vh - $header-height;
 $carte-width: $carte-height;
 $carte-color: rgba(147, 144, 144, 0.62);
 
 .projectLink {
   display: block;
-  position: absolute;
   height: 100%;
   width: 100%;
+  text-decoration: none;
+  color: $body-color;
 }
 
 
