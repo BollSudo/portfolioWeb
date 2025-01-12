@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand flex-grow-0" href="index.php?action=afficherHero&controleur=base">Me</a>
+    <a class="navbar-brand flex-grow-0" href="router.php?action=afficherHero&controleur=base">Me</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -9,7 +9,7 @@
                 <a class="nav-link" href="#">Profil <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="index.php?action=afficherProjets&controleur=base">Projects </a>
+                <a class="nav-link" href="router.php?action=afficherProjets&controleur=base">Projects</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>

@@ -8,7 +8,14 @@ class ControleurBase {
         self::afficherVue("hero.php");
     }
     public static function afficherProjets() {
-        self::afficherVue("CartesTemplate.php", ["titre" => "Projets"]);
+        self::afficherVue("projectsOverview.php", ["titre" => "Projets"]);
+    }
+
+    public static function afficherProjet() {
+        if (!isset($_REQUEST["numProjet"])) {
+            echo "error";
+        }
+        self::afficherVue("projets/projet{$_REQUEST["numProjet"]}.php");
     }
 
     private static function afficherVue(string $cheminVue, array $parametres = []) : void {
