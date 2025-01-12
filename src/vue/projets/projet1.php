@@ -7,13 +7,13 @@
     <section>
         <h2 class="sousTitreProjet">Contexte</h2>
         <p class="contentProjet">
-            La <a href="https://www.nuitdelinfo.com/"><b><i>Nuit de l'Info</i></b></a> est une compétition nationale pendant lequel des équipes de développeurs passent une nuit, du crépuscule à l'aube, pour développer un site web. Le site web doit respecter un défi et un thème révélé le soir même. Le <a href="../ressources/pdf/ndi2024.pdf"><b>défi principal</b></a> de l'édition 2024 de cet événement était le lien entre l'océan et le corps humain présenté par la fondation <a href="https://www.raceforwater.org/fr/"><b><i>Race for Water</i></b></a>.
+            La <a href="https://www.nuitdelinfo.com/"><b><i>Nuit de l'Info</i></b></a> est une compétition nationale pendant laquelle des équipes de développeurs passent une nuit, du crépuscule à l'aube, pour développer un site web. Le site web doit respecter un défi et un thème révélé le soir même. Le <a href="../ressources/pdf/ndi2024.pdf"><b>défi principal</b></a> de l'édition 2024 de cet événement était le lien entre l'océan et le corps humain présenté par la fondation <a href="https://www.raceforwater.org/fr/"><b><i>Race for Water</i></b></a>.
         </p>
     </section>
     <section>
         <h2 class="sousTitreProjet">Compétences acquises</h2>
         <p class="contentProjet">
-            En tant qu'équipe de six développeurs, nous avons formé le groupe Devil May Code Anarchy (DMCA) et relevé ce défi avec détermination. Durant cette nuit de codage intensif et de cohésion d'équipe, j'ai renforcé mes capacités techniques en HTML, CSS et JS tout en découvrant une solution web suivant une <b>architecture MVC</b> avec les <b>frameworks <i>Symphony</i> et <i>Bootstrap</i></b>. Les feuilles de style sont écrit en <b>SCSS</b> pour une meilleure gestion des variables.
+            En tant qu'équipe de six développeurs, nous avons formé le groupe Devil May Code Anarchy (DMCA) et relevé ce défi avec détermination. Durant cette nuit de codage intensif et de cohésion d'équipe, j'ai renforcé mes capacités techniques en HTML, CSS et JS tout en découvrant une solution web suivant une <b>architecture MVC</b> avec les <b>frameworks <i>Symphony</i> et <i>Bootstrap</i></b>. Les feuilles de style sont écrites en <b>SCSS</b> pour une meilleure gestion des variables.
         </p>
         <p class="contentProjet">
             Durant ce projet, je me suis consacré à la réalisation de la template du site web, au développement de la page d'accueil et à gérer le gitflow de la branche de développement. Ce projet a particulièrement mobilisé mes compétences interpersonnelles de gestion du temps et de travail d'équipes en prenant diverses décisions collectives sur la faisabilité des tâches, le choix des défis secondaires, la direction artistique et les différentes implémentations.

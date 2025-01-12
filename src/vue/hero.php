@@ -15,10 +15,10 @@
                             Hi! Je suis actuellement étudiant en 2e année de BUT Informatique à l'IUT de Montpellier. J’entreprends une spécialité dans le développement d’application en suivant le parcours Réalisation d'Applications, Conception, Développement et Validation (RACDV).
                         </p>
                         <p class="heroBioText">
-                            Ce qui me passionne c’est notamment de concevoir et développer des applications qui transforment des données brutes en visualisation ergonomique, accessible et compréhensible de tous. Je compte terminer ma formation et poursuivre mes études en école d'ingénieur ou en Master. Le domaine me reste encore incertain.
+                            Ce qui me passionne, c’est notamment de concevoir et développer des applications qui transforment des données brutes en visualisation ergonomique, accessible et compréhensible de tous. Je compte terminer ma formation et poursuivre mes études en école d'ingénieur ou en Master. Le domaine me reste encore incertain.
                         </p>
                         <p class="heroBioText">
-                            En dehors des études, je suis un aficionado du badminton et du volley! Je m'intéresse constamment aux dernières nouveautés technologiques, à l'espace et la culture japonaise. 💻🪐🌸🏸🏐
+                            En-dehors des études, je suis un aficionado du badminton et du volley ! Je m'intéresse constamment aux dernières nouveautés technologiques, à l'espace et la culture japonaise. 💻🪐🌸🏸🏐
                         </p>
                         <div class="socialsContainer d-flex align-items-center">
                             <a href="https://github.com/BollSudo" title="Github Profile" class="fa d-flex align-items-center justify-content-center">
