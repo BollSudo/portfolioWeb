@@ -9,7 +9,7 @@
           content="">
     <meta name="keywords" content="">
     <meta name="author" content="Boll">
-    <link rel="icon" type="image/x-icon" href="">
+    <link rel="icon" type="image/x-icon" href="../ressources/img/favicon.ico">
 
     <link rel="stylesheet" href="../ressources/scss/custom.css">
     <!-- icons -->

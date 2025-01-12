@@ -15,7 +15,7 @@ nav {
 }
 
 .brand-logo {
-  height: $header-height - 2vh;
+  height: $header-height - 3vh;
   width: auto;
   margin-left: 1vw;
 }
@@ -104,6 +104,7 @@ main {
 
 #leftContainer, #rightContainer, #midContainer {
   padding: 0;
+  margin-top: 2vh;
   display: flex;
   align-items: center;
   justify-content: center;
