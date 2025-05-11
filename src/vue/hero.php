@@ -15,10 +15,16 @@
                             Hi! Je suis actuellement étudiant en 2e année de BUT Informatique à l'IUT de Montpellier. J’entreprends une spécialité dans le développement d’application en suivant le parcours Réalisation d'Applications, Conception, Développement et Validation (RACDV).
                         </p>
                         <p class="heroBioText">
-                            Ce qui me passionne, c’est notamment de concevoir et développer des applications qui transforment des données brutes en visualisation ergonomique, accessible et compréhensible de tous. Je compte terminer ma formation et poursuivre mes études en école d'ingénieur ou en Master. Le domaine me reste encore incertain.
+                            Ce qui me passionne, c’est notamment de concevoir et développer des applications qui transforment des données brutes en visualisation ergonomique, accessible et compréhensible de tous.
                         </p>
                         <p class="heroBioText">
-                            En-dehors des études, je suis un aficionado du badminton et du volley ! Je m'intéresse constamment aux dernières nouveautés technologiques, à l'espace et la culture japonaise. 💻🪐🌸🏸🏐
+                            Une de mes occupations, c'est de combiner ma passion pour les systèmes physiques et mes connaissances en Informatique. J'ai découvert l'Informatique en créant des scripts <a href="">Python</a> permettant la visualisation de systèmes physiques simples (pendules simples, doubles, système à N corps...). Je me suis spécialisé de plus en plus dans les systèmes informatiques que j'aime decomposer et décortiquer pour comprendre leur fonctionnement. Un des projets que j'ai aimé réaliser est le développement d'un moteur de jeu 2D en partant de zéro <a href="">OPENGL</a>, dans lequel j'ai découvert de nombreux concepts qui m'animent : les Shaders, le Rendering, la Physique...
+                        </p>
+                        <p class="heroBioText">
+                            Minutieux, j'aime m'assurer que les applications que je développe soit agréable et ergonomique tout en assurant leurs fonctionnalités. Plongé dans l'informatique, je ne me lasse jamais à découvrir de nouvelles technologies ou de nouveaux langages. Mes dernières découvertes passionnantes étant <a href="">React</a> et <a href="">THREE.JS</a>.
+                        </p>
+                        <p class="heroBioText">
+                            En ce qui concerne mes études, je compte terminer ma formation et poursuivre mes études en école d'ingénieur ou en Master. Le domaine me reste encore incertain. En-dehors des études, je suis un aficionado du badminton et du volley ! Je m'intéresse constamment aux dernières nouveautés technologiques, à l'espace et la culture japonaise. 💻🪐🌸🏸🏐
                         </p>
                         <div class="socialsContainer d-flex align-items-center">
                             <a href="https://github.com/BollSudo" title="Github Profile" class="fa d-flex align-items-center justify-content-center">
@@ -33,14 +39,13 @@
                             <a href="mailto:julien.renaud1212@gmail.com" title="Envoyer mail" class="fa d-flex align-items-center justify-content-center">
                                 <span class="fa-google"></span>
                             </a>
-                            <a href="../ressources/pdf/CV.pdf" title="Télécharger CV" alt="Bouton Télécharger CV" download="RENAUD Julien - CV.pdf" class="fa d-flex align-items-center">
+                            <a href="../ressources/pdf/CV.pdf" title="CV" alt="Bouton CV" target="_blank" class="fa d-flex align-items-center">
                                 <div class="cvConteneur">
-                                <span class="d-none d-md-flex">Télécharger</span>
+                                <span class="d-none d-md-flex">CV</span>
                                 <img id="cvBouton" src="../ressources/img/ico-cv.png">
                                 </div>
                             </a>
                         </div>
-
                     </div>
                 </div>
             </div>

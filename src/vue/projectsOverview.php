@@ -51,10 +51,42 @@
                     <img class="codeLogo" src="../ressources/img/logo-code/logo-javafx.png" alt="logo Java" title="JAVA">
                 </div>
                 <h2 class="cardTitle">TRAINS</h2>
-                <h3 class="cardSubtitle">2024</h3>
+                <h3 class="cardSubtitle">2025</h3>
                 <img src="../ressources/img/logo-Trains.png" alt="logo TRAINS">
             </div>
         </div>
+        </a>
+        <div class="blob"></div>
+        <div class="fakeblob"></div>
+    </div>
+    <div class="carte carte4">
+        <a class="projectLink" href="router.php?action=afficherProjet&controleur=base&numProjet=4">
+            <div class="inner">
+                <div class="projectInfo">
+                    <div class="codeLang">
+                        <img class="codeLogo" src="../ressources/img/logo-code/logo-python.png" alt="logo Java" title="JAVA">
+                    </div>
+                    <h2 class="cardTitle">Race against the fly</h2>
+                    <h3 class="cardSubtitle">2025</h3>
+                    <img src="../ressources/img/logo-mango.ico" alt="logo Mango">
+                </div>
+            </div>
+        </a>
+        <div class="blob"></div>
+        <div class="fakeblob"></div>
+    </div>
+    <div class="carte carte5">
+        <a class="projectLink" href="router.php?action=afficherProjet&controleur=base&numProjet=5">
+            <div class="inner">
+                <div class="projectInfo">
+                    <div class="codeLang">
+                        <img class="codeLogo" src="../ressources/img/logo-code/logo-javafx.png" alt="logo Java" title="JAVA">
+                    </div>
+                    <h2 class="cardTitle">Very Bad Split</h2>
+                    <h3 class="cardSubtitle">2025</h3>
+                    <img src="../ressources/img/ico-sablier.png" alt="logo TRAINS">
+                </div>
+            </div>
         </a>
         <div class="blob"></div>
         <div class="fakeblob"></div>
