@@ -18,6 +18,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="router.php?action=afficherProjets&controleur=base">Projets</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="router.php?action=afficherCompetences&controleur=base">Portfolio de compétences</a>
+            </li>
 <!--            <li class="nav-item">-->
 <!--                <a class="nav-link" href="#">Contact</a>-->
 <!--            </li>-->

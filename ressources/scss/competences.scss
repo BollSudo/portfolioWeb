@@ -1,0 +1,26 @@
+/* Variables */
+@import "custom";
+
+.sideMenuCompetences {
+    position: sticky;
+    top: $header-height;
+    align-self: flex-start; /* Ensures sticky works inside flex container */
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: auto;
+    margin: 0 10px;
+}
+
+
+.gerer {
+    color: #87c546
+}
+
+.administrer {
+    color: #eeb819
+}
+
+.competenceTitle {
+    padding: 10vh 0 2vh 0;
+}
