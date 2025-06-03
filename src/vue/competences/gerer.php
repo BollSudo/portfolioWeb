@@ -26,7 +26,7 @@
             <p class="competenceDescription">OK</p>
 
             <div class="competenceListes">
-                <h4 class="acTitle">Aprentissages critiques</h4>
+                <h4 class="acTitle">Apprentissages critiques</h4>
                 <ul class="acList">
                     <li class="acItem">AC1 - Mettre à jour et interroger une base de données relationnelle (en requêtes directes ou à travers une application)
                     </li>
@@ -55,7 +55,7 @@
                 </p>
 
                 <div class="competenceListes">
-                    <h4 class="acTitle">Aprentissages critiques</h4>
+                    <h4 class="acTitle">Apprentissages critiques</h4>
                     <ul class="acList">
                         <li class="acItem">AC1 - Optimiser les modèles de données de l'entreprise
                         </li>

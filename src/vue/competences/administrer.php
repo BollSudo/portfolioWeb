@@ -19,10 +19,38 @@
             <h3 class="competenceTitle administrer">Niveau 1 : Installer et configurer un poste
                 de travail</h3>
 
-            <p class="competenceDescription">OK</p>
+            <p class="competenceDescription">
+                Installer et configurer un poste de travail, créer une clé USB bootable pour
+                installer une distribution (ici Ubuntu avec son GUI intégré GNOME) Linux en
+                Dual-Boot avec Windows ; ou bien en VM via VirtualBox. L’installation contient
+                des dossiers partagés entre les OS, des kits de développement comme JDK et des
+                éditeurs de code source tel que VSCode. La comparaison des deux configurations,
+                ainsi que la notice d’installation du setup ont été rédigés. [exemple de instructions]
+            </p>
+
+            <p class="competenceDescription">
+                Utilisation de GitLab de l’IUT et Github pour organiser le travail durant les SAE.
+                Comprendre l’outil de versionnage, les commandes de bases (pull, add, commit,
+                push), et les notions de conflits (merge). Configuration de git sous Windows avec
+                gitBash. Génération d’une clef SSH pour l’authentification et établir un canal de
+                communication sécurisée et crypté entre l’utilisateur et le serveur. Utiliser un
+                client FTP (FileZilla) pour se connecter aux serveurs de l’IUT et accéder aux
+                dossiers de travail.
+            </p>
+
+            <p class="competenceDescription">
+                Découverte des composants d’un ordinateur (hardware/software). Découverte du
+                système d’exploitation Linux avec la distribution Ubuntu et son programme Shell
+                nommé bash (commandes de base via la console du terminal, notion de
+                stdin/stdout/stderr, système de fichiers et inodes, permissions, bash script...).
+                Compréhension des circuits électroniques (portes logiques) et de l’architecture
+                d’un microprocesseur (unités, bus, registres…). Comprendre comment est
+                construit l’UAL (Unité arithmétique et logique) du microprocesseur. Réaliser des
+                circuits sur un simulateur en ligne CircuitVerse. [exemple circuit]
+            </p>
 
             <div class="competenceListes">
-                <h4 class="acTitle">Aprentissages critiques</h4>
+                <h4 class="acTitle">Apprentissages critiques</h4>
                 <ul class="acList">
                     <li class="acItem">AC1 - Identifier les différents composants (matériels et logiciels) d’un système
                         numérique
@@ -38,7 +66,7 @@
 
                 <p class="competenceDescription">
                     La deuxième année de BUT Informatique m'a permis de développer des compétences techniques en virtualisation.
-                    J'ai ainsi appris à approfondir mes connissances sur des outils de virtualisation tels que <i>VirtualBox</i>, <i>VMware Workstation</i> et <i>Hyper-V</i>. Avec ces outils, j'ai pu concevoir des <b>environnemts virtuels</b> dans lesquels j'ai pu configurer des <b>services</b> de manière sécure (serveurs web, base de données, serveur ssh, etc.) et tester mes applications.
+                    J'ai ainsi appris à approfondir mes connaissances sur des outils de virtualisation tels que <i>VirtualBox</i>, <i>VMware Workstation</i> et <i>Hyper-V</i>. Avec ces outils, j'ai pu concevoir des <b>environnemts virtuels</b> dans lesquels j'ai pu configurer des <b>services</b> de manière sécure (serveurs web, base de données, serveur ssh, etc.) et tester mes applications.
                 </p>
                 <p class="competenceDescription">
                     Par ailleurs, la découverte de <i>Docker</i> m'a permis de maitriser la <b>conteneurisation</b> des applications et des services que je développe et de les rendre <b>portables</b>. Le projet <a href="">Tricount</a> m'a notemment permis d'appliquer cela, en conteneurisant une application web avec l'utilisation d'un <b>dockerfile</b>, de <b>docker-compose</b> et d'un <b>makefile</b> pour la configuration des differents services (serveur web <i>Apache</i>, base de données <i>MariaDB</i>, et gestionnaire de migrations <i>Flyway</i>) et la simplification de leur déploiement.
@@ -54,7 +82,7 @@
                 </p>
 
                 <div class="competenceListes">
-                    <h4 class="acTitle">Aprentissages critiques</h4>
+                    <h4 class="acTitle">Apprentissages critiques</h4>
                     <ul class="acList">
                         <li class="acItem">AC1 - Concevoir et développer des applications communicantes
                         </li>
