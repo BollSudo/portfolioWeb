@@ -1,5 +1,5 @@
-<link href="../ressources/scss/projet.css" rel="stylesheet">
 <link href="../ressources/scss/competences.css" rel="stylesheet">
+<link href="../ressources/scss/projet.css" rel="stylesheet">
 
 <?php require __DIR__ . "/boutonsNiveau.php" ?>
 
