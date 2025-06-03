@@ -5,27 +5,6 @@
 <div class="conteneurProjet">
     <h1 class="titreProjet">Projet Race against the Fly</h1>
 
-<!--    <div class="galleryContainerTrains">-->
-<!--        <div class="galleryItem trains">-->
-<!--            <img src="../ressources/img/--><?php //=$projectImgDir?><!--/trainsMenu.png"-->
-<!--                 title="Menu IHM Trains"-->
-<!--                 onclick="openModal(this.src, this.title)"-->
-<!--                 alt="Image 1">-->
-<!--        </div>-->
-<!--        <div class="galleryItem trains">-->
-<!--            <img src="../ressources/img/--><?php //=$projectImgDir?><!--/trainsIHM.png"-->
-<!--                 title="IHM Trains"-->
-<!--                 onclick="openModal(this.src, this.title)"-->
-<!--                 alt="Image 2">-->
-<!--        </div>-->
-<!--        <div class="galleryItem trains">-->
-<!--            <img src="../ressources/img/--><?php //=$projectImgDir?><!--/scoreTrains.png"-->
-<!--                 title="Tableau de score IHM Trains"-->
-<!--                 onclick="openModal(this.src, this.title)"-->
-<!--                 alt="Image 3">-->
-<!--        </div>-->
-<!--    </div>-->
-
     <section>
         <h2 class="sousTitreProjet">Contexte</h2>
         <p class="contentProjet">
@@ -37,30 +16,32 @@
 
         <h4 class="partieProjet">Mécanique du jeu</h4>
         <p class="contentProjet">
-
+            La première partie du projet consiste à réusiner le code existant du modèle sous Python afin de l'incorporer à la
+            mécanique du jeu. Cette étape est précédée d'une partie de conception qui consiste à modéliser les différentes entités
+            du jeu et leurs relations à travers un diagramme UML, tout en respectant les pricipes de conception orienté objet (SOLID).
         </p>
         <h4 class="partieProjet">Interface Graphique</h4>
         <p class="contentProjet">
-
+            La deuxième partie du projet consiste à concevoir et à mettre en place l'interface graphique du jeu par dessus la mécanique
+            du jeu via des interfaces. Cette partie consiste à concevoir une IHM qui soit ergonomique et qui permet faciliter la saisie des données par les animateurs. Elle comprend un étape de prototypage sur Figma, une étape de conception de l'IHM et une étape de développement de l'IHM.
+            L'IHM a été développé avec le module <i><a href="">tkinter</a></i> de Python.
         </p>
         <h4 class="partieProjet">Tests et Packaging</h4>
         <p class="contentProjet">
-
+            Le projet a été testé via des tests unitaitres et des tests fonctionnels. Une pipeline de CI/CD a aussi été mise en place pour automatiser ces tests de régression à chaque modification du code. Le packaging du jeu s'est fait via le module Nuitka de Python.
         </p>
-        <a href="../ressources/pdf/CV.pdf" target="_blank">RAPPPORT</a>
     </section>
     <section>
         <h2 class="sousTitreProjet">Traces</h2>
+        <a href="../ressources/pdf/rpst.pdf" target="_blank">Rapport de stage</a>
         <p class="contentProjet"></p>
-
-        <div class="galleryContainer">
-            <div class="galleryItem php">
-                <img src="../ressources/img/<?=$projectImgDir?>/maven.png"
-                     title="Structure Projet Maven"
-                     onclick="openModal(this.src, this.title)"
-                     alt="Image 4">
-            </div>
-        </div>
+    </section>
+    <section>
+        <h2 class="sousTitreProjet">Contributeurs</h2>
+        <ul class="listContributors">
+            <li class="contributor">Julien R.</li>
+        </ul>
+        <p class="contentProjet"></p>
     </section>
 </div>
 

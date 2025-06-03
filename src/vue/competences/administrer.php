@@ -1,8 +1,9 @@
 <link href="../ressources/scss/projet.css" rel="stylesheet">
 <link href="../ressources/scss/competences.css" rel="stylesheet">
 
+<?php require __DIR__ . "/boutonsNiveau.php" ?>
 
-<div class="d-flex">
+<div class="conteneurCompetence">
     <?php require __DIR__ . "/sideMenuCompetences.php" ?>
 
     <div class="competences conteneurProjet">
@@ -16,37 +17,20 @@
             <li class="acItem">EC4 - En assurant la continuité d'activité</li>
         </ul>
         <div class="competence">
-            <h3 class="competenceTitle administrer">Niveau 1 : Installer et configurer un poste
+
+            <h3 id="niveau1" class="competenceTitle administrer">Niveau 1 : Installer et configurer un poste
                 de travail</h3>
 
             <p class="competenceDescription">
-                Installer et configurer un poste de travail, créer une clé USB bootable pour
-                installer une distribution (ici Ubuntu avec son GUI intégré GNOME) Linux en
-                Dual-Boot avec Windows ; ou bien en VM via VirtualBox. L’installation contient
-                des dossiers partagés entre les OS, des kits de développement comme JDK et des
-                éditeurs de code source tel que VSCode. La comparaison des deux configurations,
-                ainsi que la notice d’installation du setup ont été rédigés. [exemple de instructions]
+                J’ai appris à installer et configurer un poste de travail en créant une clé USB bootable pour installer une distribution Linux (Ubuntu avec l’interface GNOME), en dual-boot avec Windows ou dans une machine virtuelle via VirtualBox. L’environnement de travail mis en place comprenait des dossiers partagés entre les systèmes, des outils de développement tels que le JDK, ainsi que des éditeurs de code comme Visual Studio Code. J’ai également rédigé une notice d’installation et comparé les deux configurations (dual-boot vs VM), en analysant leurs avantages et inconvénients. [exemple de instructions]
             </p>
 
             <p class="competenceDescription">
-                Utilisation de GitLab de l’IUT et Github pour organiser le travail durant les SAE.
-                Comprendre l’outil de versionnage, les commandes de bases (pull, add, commit,
-                push), et les notions de conflits (merge). Configuration de git sous Windows avec
-                gitBash. Génération d’une clef SSH pour l’authentification et établir un canal de
-                communication sécurisée et crypté entre l’utilisateur et le serveur. Utiliser un
-                client FTP (FileZilla) pour se connecter aux serveurs de l’IUT et accéder aux
-                dossiers de travail.
+                Au cours de mes projets, j’ai utilisé GitLab (IUT) et GitHub pour organiser le travail collaboratif. J’ai manipulé les commandes fondamentales de Git (pull, add, commit, push), compris la gestion des conflits (merge) et configuré Git sous Windows via Git Bash. J’ai aussi généré une clé SSH pour établir une connexion sécurisée et chiffrée entre mon poste et le serveur. Enfin, j’ai utilisé FileZilla pour accéder aux serveurs de l’IUT via le protocole FTP, afin de consulter ou modifier les dossiers partagés.
             </p>
 
             <p class="competenceDescription">
-                Découverte des composants d’un ordinateur (hardware/software). Découverte du
-                système d’exploitation Linux avec la distribution Ubuntu et son programme Shell
-                nommé bash (commandes de base via la console du terminal, notion de
-                stdin/stdout/stderr, système de fichiers et inodes, permissions, bash script...).
-                Compréhension des circuits électroniques (portes logiques) et de l’architecture
-                d’un microprocesseur (unités, bus, registres…). Comprendre comment est
-                construit l’UAL (Unité arithmétique et logique) du microprocesseur. Réaliser des
-                circuits sur un simulateur en ligne CircuitVerse. [exemple circuit]
+                J’ai découvert les composants essentiels d’un ordinateur, tant au niveau matériel (processeur, mémoire, bus, registres...) que logiciel (système d’exploitation, architecture). J’ai exploré la distribution Ubuntu Linux à travers son terminal bash, en apprenant les commandes de base, la gestion des flux d’entrée/sortie (stdin, stdout, stderr), les permissions, la structure du système de fichiers et la rédaction de scripts bash. J’ai également étudié les portes logiques, les circuits électroniques de base, et le fonctionnement de l’UAL (unité arithmétique et logique) d’un microprocesseur, que j’ai pu simuler grâce à CircuitVerse. [exemple circuit]
             </p>
 
             <div class="competenceListes">
@@ -62,7 +46,7 @@
                     <li class="acItem">AC4 - Configurer un poste de travail dans un réseau d’entreprise</li>
                 </ul>
 
-                <h3 class="competenceTitle administrer">Niveau 2 : Déployer des services dans une architecture réseau</h3>
+                <h3 id="niveau2" class="competenceTitle administrer">Niveau 2 : Déployer des services dans une architecture réseau</h3>
 
                 <p class="competenceDescription">
                     La deuxième année de BUT Informatique m'a permis de développer des compétences techniques en virtualisation.

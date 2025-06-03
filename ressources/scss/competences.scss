@@ -1,18 +1,6 @@
 /* Variables */
 @import "custom";
 
-.sideMenuCompetences {
-    position: sticky;
-    top: $header-height;
-    align-self: flex-start; /* Ensures sticky works inside flex container */
-    display: flex;
-    flex-direction: column;
-    gap: 2vh;
-    width: auto;
-    margin: 0 10px;
-}
-
-
 .gerer {
     color: #87c546
 }
@@ -28,3 +16,39 @@
 .competenceTitle {
     padding: 10vh 0 2vh 0;
 }
+
+.competenceDescription {
+    text-align: justify;
+}
+
+
+.conteneurCompetence {
+    display: flex;
+    flex-direction: column;
+}
+
+.sideMenuCompetences {
+    position: sticky;
+    top: $header-height;
+    align-self: flex-start; /* Ensures sticky works inside flex container */
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 100%;
+    margin: 0;
+    padding: 0.5rem 0;
+    background-color: rgba(18, 18, 18, 0.55);
+    backdrop-filter: blur(3px);           /* <-- blur effect */
+    -webkit-backdrop-filter: blur(8px);   /* Safari support */
+}
+
+.sideMenuCompetences a {
+    background: $primary;
+    padding: 0.5rem 1rem;
+    border: solid 2px rgba(45, 45, 154, 0.18);
+    text-decoration: none;
+    font-weight: 500;
+}
+

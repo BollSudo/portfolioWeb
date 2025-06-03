@@ -1,8 +1,9 @@
 <link href="../ressources/scss/projet.css" rel="stylesheet">
 <link href="../ressources/scss/competences.css" rel="stylesheet">
 
+<?php require __DIR__ . "/boutonsNiveau.php" ?>
 
-<div class="d-flex">
+<div class="conteneurCompetence">
     <?php require __DIR__ . "/sideMenuCompetences.php" ?>
 
     <div class="competences conteneurProjet">
@@ -20,10 +21,18 @@
             <li class="acItem">EC4 - En assurant la cohérence et la qualité</li>
         </ul>
         <div class="competence">
-            <h3 class="competenceTitle gerer">Niveau 1 : Concevoir et mettre en place une base de données à partir
+            <h3 id="niveau1" class="competenceTitle gerer">Niveau 1 : Concevoir et mettre en place une base de données à partir
                 d'un cahier des charges client</h3>
 
-            <p class="competenceDescription">OK</p>
+            <p class="competenceDescription">
+                Dans le cadre d’un projet en groupe de cinq, j’ai participé à la création d’une base de données relationnelle à l’aide du SGBD Oracle, en utilisant l’interface en ligne de commande iSQL*Plus. À partir d’un cahier des charges fictif que j’ai contribué à rédiger, j’ai modélisé une base à l’aide d’un diagramme entité/association conçu avec le logiciel Looping. J’ai ensuite écrit des scripts SQL pour créer, modifier, insérer et supprimer les données de la base.
+                Ce projet m’a permis de mettre en œuvre les notions fondamentales des bases de données relationnelles, notamment les relations binaires et ternaires, les contraintes d’intégrité (domaines, inclusion, exclusion, fonctionnelles), les entités héritées ainsi que les clés primaires et étrangères. J’ai également utilisé DBeaver, un outil open source d’administration de base de données, pour importer les données initiales sous forme de tableaux temporaires et faciliter la structuration de la base.
+            </p>
+
+            <p class="competenceDescription">
+                En parallèle, j’ai manipulé un jeu de données brutes issues de l’application Spotify, fournies sous forme de fichiers CSV. Ces données ont été transformées et analysées à l’aide du tableur LibreOffice Calc. J’ai utilisé des outils de tri, de regroupement et de calcul pour extraire les modalités, les fréquences, les effectifs, ainsi que des indicateurs statistiques comme la moyenne, la médiane, les quartiles, l’écart-type et l’écart interquartile.
+                En fonction de la nature des variables (qualitatives ordinales ou nominales, quantitatives discrètes ou continues), j’ai adapté la restitution visuelle à travers différents supports : tableaux, diagrammes en secteurs, diagrammes en bâtons, histogrammes et boxplots. Ce travail m’a permis de mieux comprendre l’importance de l’organisation des données pour en faciliter l’analyse et la communication.
+            </p>
 
             <div class="competenceListes">
                 <h4 class="acTitle">Apprentissages critiques</h4>
@@ -35,7 +44,7 @@
                         cahier des charges</li>
                 </ul>
 
-                <h3 class="competenceTitle gerer">Niveau 2 : Optimiser une base de données, interagir avec une
+                <h3 id="niveau2" class="competenceTitle gerer">Niveau 2 : Optimiser une base de données, interagir avec une
                     application et mettre en œuvre la sécurité </h3>
 
                 <p class="competenceDescription">

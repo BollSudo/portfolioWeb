@@ -3,7 +3,7 @@
 <a class="boutonBack" href="router.php?action=afficherProjets&controleur=base">Revenir en arrière</a>
 <?php $projectImgDir = "saetrains" ?>
 <div class="conteneurProjet">
-    <h1 class="titreProjet">Projet TRAINS</h1>
+    <h1 class="titreProjet">Projet Very Bad Split</h1>
 
     <div class="galleryContainerTrains">
         <div class="galleryItem trains">
@@ -29,36 +29,33 @@
     <section>
         <h2 class="sousTitreProjet">Contexte</h2>
         <p class="contentProjet">
-            Dans le cadre d'un projet de trois mois de 1ère année de BUT Informatique, en binôme, nous avons développé une application de bureau en <b>Java</b> qui se présente sous la forme d'un exécutable. Cette application consiste en une version numérique d'un jeu de plateau nommé <i>Trains ©</i>. L'objectif de ce projet était d'<b>informatiser la mécanique</b> du jeu afin d'<b>implémenter une Interface Homme Machine (IHM) ergonomique</b> en passant par l'<b>exploration des algorithmes de graphes</b>. La structure du projet suit la convention <b>Maven</b>.
+            Dans le cadre du projet du semestre quatre de BUT Informatique, il nous a été demandé d'améliorer un site existant de gestion de dépenses pour des événements. Le site web devait inclure des fonctionnalités réactives et ergonomiques tout en respectant les normes de securité et de performance.
         </p>
     </section>
     <section>
         <h2 class="sousTitreProjet">Compétences acquises</h2>
 
-        <h4 class="partieProjet">Mécanique du jeu <small><a href="https://github.com/BollSudo/A1-SAE-TRAINS-Mecanique" title="Lien du dépot git" class="fa"><span class="fa-github"></span></a></small></h4>
+        <h4 class="partieProjet">Audit de sécurité</h4>
         <p class="contentProjet">
-            Cette phase met en avant l’application de concept de développement orienté objet et de qualité de développement. Ce projet a mis en avant mes capacités à diviser et à catégoriser le problème en plusieurs briques/classes propres à la programmation orientée objet. J'ai également su développer mes compétences techniques en appliquons divers concepts et principes de programmation, dont l’<b>héritage</b>, le principe <b>YAGNI</b> (« You Ain’t Gonna Need It »), le principe <b>KISS</b> (« Keep It Simple, Stupid »), le principe <b>DRY</b> (« Do not Repeat Yourself »), et la méthode de <b>développement par les tests</b> (TDD). Les tests étaient réalisés avec le <b>framework de test unitaire JUnit</b>.
+            Avant de commencer à améliorer la qualité du code ou ajouter des fonctionnalités supplémentaires, il a fallu determiné les différentes failles de sécurité de l'application existante. Durant cette phase d'analyse, j'ai su reperé les différentes failles de sécurité, en proposant un scénario par lequel la faille pourrait être exploiter, en évaluant son niveau de rique, et en proposant une solution pour la corriger. Parmi les failles de sécurité relevé, il y a eu les injection SQL, les injections XSS, le stockage de données sensibles dans les cookies, stockage du mdp en clair dans la BD, mauvais algorithme de hashage déterministe, possible attaque csrf, un système de récupération de compte non sécurisé, et des anomalies de mise à jour liées à un schéma non normalisé de la BDD.
         </p>
-        <h4 class="partieProjet">Algos de graphes <small><a href="https://github.com/BollSudo/A1-SAE-TRAINS-Graphe" title="Lien du dépot git" class="fa"><span class="fa-github"></span></a></small></h4>
+
+        <h4 class="partieProjet">Normalisation BD</h4>
         <p class="contentProjet">
-            Cette partie se focalise sur les d’algorithmes de graphe, et
-            l’implémentation d’un <b>Graphe simple non-orienté pondéré en POO à travers Java</b>
-            qui se décompose en deux objets : ‘Sommet’ et ‘Graphe’. Les algorithmes
-            implémentés sont :
-        <ul>
-            <li>algorithme de <b>Dijkstra</b></li>
-            <li>algorithme de la <b>coloration gloutonne</b></li>
-            <li>algorithme de recherche exhaustive visant à trouver le nombre de sous-graphes complets d’ordre k ou k-clique dans un graphe</li>
-            <li>algorithme pour lister les différentes classes de connexité d’un graphe</li>
-            <li>algorithme de recherche d’un isthme ou d’un cycle dans un graphe</li>
-            <li>algorithmes d'identification du type de graphe (chaîne, cycle, arbre, forêt, connexe)</li>
-        </ul>
-        Par ailleurs, ces notions théoriques sont directement reliées au plateau du jeu perçu comme un graphe planaire. J'ai aussi appris à appliquer des concepts essentiels, comme les <b>‘Comparator’</b>, les <b>‘Iterator’</b>, et les <b>‘Collection’</b>.
+            Afin d'éviter toutes anomalies de mise à jour et toutes redondances liées aux données, il a fallu normaliser la base de données.
+            La normalisation de la BD permet de justifier le passage d'un schéma de base de données non normalisé vers un schéma normalisé. Il a fallu décomposé la relation initiale de manière à ce qu'elle soit en 3eme forme normale (3NF), et justifier que la décomposition et sans pertes de données et sans pertes de dépendances fonctionnelles. Pour cela, il fallu déterminé les dépendances fonctionnelles de notre application en se basant sur les règles de gestion de notre application. Ensuite il a fallu, à partir d'une relation non normalisée, décomposer judicieusement cette dernière en utilisant le théorème de Casey Delobel pour préserver les données. Finalement, il a fallue comparer les fermetures transitives de la relation initiale et de la relation normalisée pour confirmer que'il n'y avait aucune perte de dépendances fonctionnelles.
         </p>
-        <h4 class="partieProjet">IHM JavaFX <small><a href="https://github.com/BollSudo/A1-SAE-TRAINS-IHM" title="Lien du dépot git" class="fa"><span class="fa-github"></span></a></small></h4>
+
+        <h4 class="partieProjet">Amélioration des fonctionnalités</h4>
         <p class="contentProjet">
-            Le but de cette dernière est de donner vie à notre jeu, en implémentant une interface graphique ergonomique et fonctionnelle. Pour cela, nous avons utilisé la bibliothèque <b>JavaFX</b> avec laquelle j'ai pu découvrir et appliquer les notions de <b>« Binding », « Binding Haut niveau », « Binding Bas niveau », « Binding bidirectionnel » et « Observation des Propriétés à travers les Listeners »</b>. J'ai su également adopter la <b>division efficace du code</b>, en séparant la partie fonctionnelle/gestion d’événements dans les Class ‘Contrôleurs’ associés, de la partie création graphique dans les fichiers ‘.fxml’, et le style dans les fichiers ‘.css’. Finalement, j'ai appris à <b>packager un projet sous Windows avec les outils JPackage et WiX</b> (Windows Installer XML) sous la forme d'un exécutable.
+            Cette phase met en avant les différentes amélioriations et fonctionnalités que j'ai développé durant le projet. J'ai su améliorer le système de routage en intégrant le système de routage par attribut de Symfony. J'ai su également réusiné le code de façon à alléger les responsabilités des controlleurs en introduisant des classes services que j'initialise au moyen d'un conteneur de dépendances configuré par un fichier de configuration .yaml et qui utilise le système de branchement automatique de Symfony. Ensuite, j'ai pu tester mon code en implémentant des tests unitaires avec ue couverture acceptable du système. J'ai su renforcé la sécurité du code en empéchant les injections SQL via des requêtes préparées, en renforcant la validation des formulaires côté serveur, et en introduisant un système d'authentification plus robuste. L'érgonomie de l'application a aussi pu améliorer grâce à des fonctionnalités JS. Je me suis particulièrement penché sur l'utilisation d'une bibliothèque réactive personnalisée pour l'interface utilisateur (en cours).
         </p>
+
+        <h4 class="partieProjet">Conteneurisation</h4>
+        <p class="contentProjet">
+            J'ai su conteneuriser l'application sous Docker via différents services (serveur web, base de données, gestionnaire de migrations, etc.) avec l'utilisation d'un dockerfile et d'un docker-compose. J'ai su utiliser et iplémenter des commandes via MakeFile pour simplifier l'utilisation de Docker. J'ai su comprendre les différents composants de Docker et leur utilisation (volumes nommés, volumes bind, et networks).
+        </p>
+
     </section>
     <section>
         <h2 class="sousTitreProjet">Traces</h2>
@@ -115,8 +112,9 @@
     <section>
         <h2 class="sousTitreProjet">Contributeurs</h2>
         <ul class="listContributors">
-            <li class="contributor">Alexandre D.</li>
             <li class="contributor">Julien R.</li>
+            <li class="contributor">Milwenn F.</li>
+            <li class="contributor">Nathan Raphaël L.</li>
         </ul>
         <p class="contentProjet"></p>
     </section>

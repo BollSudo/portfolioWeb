@@ -51,7 +51,7 @@
                     <img class="codeLogo" src="../ressources/img/logo-code/logo-javafx.png" alt="logo Java" title="JAVA">
                 </div>
                 <h2 class="cardTitle">TRAINS</h2>
-                <h3 class="cardSubtitle">2025</h3>
+                <h3 class="cardSubtitle">2024</h3>
                 <img src="../ressources/img/logo-Trains.png" alt="logo TRAINS">
             </div>
         </div>
@@ -80,11 +80,36 @@
             <div class="inner">
                 <div class="projectInfo">
                     <div class="codeLang">
-                        <img class="codeLogo" src="../ressources/img/logo-code/logo-javafx.png" alt="logo Java" title="JAVA">
+                        <div class="codeLang">
+                            <img class="codeLogo" src="../ressources/img/logo-code/logo-html5.svg" alt="logo HTML5" title="HTML5">
+                            <img class="codeLogo" src="../ressources/img/logo-code/logo-css3.svg" alt="logo CSS3" title="CSS3">
+                            <img class="codeLogo" src="../ressources/img/logo-code/logo-js.png" alt="logo JS" title="JS">
+                            <img class="codeLogo" src="../ressources/img/logo-code/logo-php.svg" alt="logo PHP" title="PHP">
+                        </div>
                     </div>
                     <h2 class="cardTitle">Very Bad Split</h2>
                     <h3 class="cardSubtitle">2025</h3>
                     <img src="../ressources/img/ico-sablier.png" alt="logo TRAINS">
+                </div>
+            </div>
+        </a>
+        <div class="blob"></div>
+        <div class="fakeblob"></div>
+    </div>
+    <div class="carte carte5">
+        <a class="projectLink" href="router.php?action=afficherProjet&controleur=base&numProjet=6">
+            <div class="inner">
+                <div class="projectInfo">
+                    <div class="codeLang">
+                        <img class="codeLogo" src="../ressources/img/logo-code/logo-html5.svg" alt="logo HTML5" title="HTML5">
+                        <img class="codeLogo" src="../ressources/img/logo-code/logo-css3.svg" alt="logo CSS3" title="CSS3">
+                        <img class="codeLogo" src="../ressources/img/logo-code/logo-js.png" alt="logo JS" title="JS">
+                        <img class="codeLogo" src="../ressources/img/logo-code/logo-tailwind.png" alt="logo Tailwind" title="Tailwind">
+                        <img class="codeLogo" src="../ressources/img/logo-code/logo-php.svg" alt="logo PHP" title="PHP">
+                        <img class="codeLogo" src="../ressources/img/logo-code/logo-symfony.png" alt="logo Symfony" title="Symfony">
+                    </div>
+                    <h2 class="cardTitle">GoPetSit™</h2>
+                    <h3 class="cardSubtitle">2025 (En cours)</h3>
                 </div>
             </div>
         </a>

@@ -1,8 +1,9 @@
 <link href="../ressources/scss/projet.css" rel="stylesheet">
 <link href="../ressources/scss/competences.css" rel="stylesheet">
 
+<?php require __DIR__ . "/boutonsNiveau.php" ?>
 
-<div class="d-flex">
+<div class="conteneurCompetence">
     <?php require __DIR__ . "/sideMenuCompetences.php" ?>
 
     <div class="competences conteneurProjet">

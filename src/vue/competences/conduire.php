@@ -1,8 +1,9 @@
 <link href="../ressources/scss/projet.css" rel="stylesheet">
 <link href="../ressources/scss/competences.css" rel="stylesheet">
 
+<?php require __DIR__ . "/boutonsNiveau.php" ?>
 
-<div class="d-flex">
+<div class="conteneurCompetence">
     <?php require __DIR__ . "/sideMenuCompetences.php" ?>
 
     <div class="competences conteneurProjet">
@@ -15,9 +16,23 @@
             <li class="acItem">EC4 - En adoptant une démarche proactive, créative et critique</li>
         </ul>
         <div class="competence">
-            <h3 class="competenceTitle conduire">Niveau 1 : Identifier les besoins métiers des clients et des utilisateurs</h3>
+            <h3 id="niveau1" class="competenceTitle conduire">Niveau 1 : Identifier les besoins métiers des clients et des utilisateurs</h3>
 
-            <p class="competenceDescription">OK</p>
+            <p class="competenceDescription">
+                Dans le cadre d’un projet interdisciplinaire, j’ai collaboré au développement d’un site web et d’une affiche promotionnelle en lien avec un escape game, en respectant les exigences du client tant sur le plan esthétique que fonctionnel. J’ai utilisé Canva pour la partie visuelle et GitHub couplé à Git pour organiser le travail collaboratif et assurer un suivi de version rigoureux. Des échanges oraux et écrits ont été menés avec le client afin de recueillir ses attentes, valider les maquettes, et ajuster les livrables au fur et à mesure de l’avancement du projet.
+            </p>
+
+            <p class="competenceDescription">
+                J’ai également participé à la réalisation d’un podcast scénarisé via le logiciel Audacity, dans lequel chaque membre de l’équipe tenait un rôle. Ce podcast abordait les enjeux environnementaux du numérique, notamment autour de la fabrication et de l’usage des téléphones portables. J’ai contribué à la rédaction du script, à l’enregistrement, ainsi qu’à l’édition. Les propos tenus dans ce podcast reposaient sur une recherche documentaire approfondie, dont la bibliographie a été gérée à l’aide du logiciel Zotero, afin d’assurer la rigueur des sources utilisées.
+            </p>
+
+            <p class="competenceDescription">
+                Dans un autre projet, j’ai participé à la préparation et à l’installation de solutions matérielles et logicielles pour équiper un espace de coworking fictif. Ce travail a nécessité la rédaction d’un rapport comparatif sur plusieurs services essentiels, tels que le serveur web, le système de messagerie ou encore les solutions de stockage de données. Ce projet m’a permis de comprendre l’importance d’une analyse technique préalable à toute installation, en évaluant chaque solution à travers des grilles de critères clairs, notamment en termes de compatibilité, de coûts, de performance et de simplicité de mise en œuvre.
+            </p>
+
+            <p class="competenceDescription">
+                Enfin, dans le cadre du projet FestiPop, j’ai contribué à la planification complète d’un festival de Pop Culture organisé par une entreprise fictive nommée Minute Festival. J’ai rédigé un cahier des charges détaillant l’ensemble des étapes : conception, budgétisation, inventaire, planification logistique, choix du matériel informatique (réseau, nom de domaine, caméras de surveillance, site web...), tarification et recrutement. J’ai utilisé des outils de gestion de projet comme le diagramme de Pert et de Gantt, ainsi que Google Sheets pour le suivi comptable (comptes de charges, immobilisations, amortissements, TVA, etc.). Ce projet m’a permis de renforcer mes compétences en gestion de projet, organisation d’événements, et collaboration interdisciplinaire, en produisant un livrable structuré et aligné avec les besoins de l’entreprise fictive.
+            </p>
 
             <div class="competenceListes">
                 <h4 class="acTitle">Apprentissages critiques</h4>
@@ -28,7 +43,7 @@
                         de développement</li>
                 </ul>
 
-                <h3 class="competenceTitle conduire">Niveau 2 : Appliquer une démarche de suivi de projet en fonction des besoins métiers des clients et des utilisateurs</h3>
+                <h3 id="niveau2" class="competenceTitle conduire">Niveau 2 : Appliquer une démarche de suivi de projet en fonction des besoins métiers des clients et des utilisateurs</h3>
 
                 <p class="competenceDescription">
                     La deuxième année m'a permis de découvrir une organisation de projet en itératif et incrémental avec des cycles courts et des feedbacks clients rapides. Cette façon de travailler se distingue de la méthode en WaterFall appliquée habituellement dans mes précdeants projets : élaborer un cahier des charges complets, concevoir, développer, tester puis livrer.

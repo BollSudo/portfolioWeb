@@ -2,7 +2,7 @@
 <link href="../ressources/scss/competences.css" rel="stylesheet">
 
 
-<div class="d-flex">
+<div class="d-flex conteneurCompetence">
     <?php require __DIR__ . "/competences/sideMenuCompetences.php" ?>
 
     <div class="competences conteneurProjet">

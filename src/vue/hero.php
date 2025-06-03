@@ -67,12 +67,13 @@
                     </div>
                 </div>
             </div>
+            <div id="contentContainer">
+                <?php include __DIR__ . "/timeline/timeline.php"; ?>
+            </div>
         </div>
-        <div id="contentContainer">
-
-        </div>
-
 </div>
+
+
 
 <script src="../ressources/js/mouse.js"></script>
 <script src="../ressources/js/boutons.js"></script>
