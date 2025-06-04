@@ -1,26 +1,26 @@
 <link href="../ressources/scss/projet.css" rel="stylesheet">
 
 <a class="boutonBack" href="router.php?action=afficherProjets&controleur=base">Revenir aux projets</a>
-<?php $projectImgDir = "saetrains" ?>
+<?php $projectImgDir = "saetri" ?>
 <div class="conteneurProjet">
     <h1 class="titreProjet">Projet Very Bad Split</h1>
 
     <div class="galleryContainerTrains">
         <div class="galleryItem trains">
-            <img src="../ressources/img/<?=$projectImgDir?>/trainsMenu.png"
-                 title="Menu IHM Trains"
+            <img src="../ressources/img/<?=$projectImgDir?>/ihmTri.png"
+                 title="IHM Application"
                  onclick="openModal(this.src, this.title)"
                  alt="Image 1">
         </div>
         <div class="galleryItem trains">
-            <img src="../ressources/img/<?=$projectImgDir?>/trainsIHM.png"
-                 title="IHM Trains"
+            <img src="../ressources/img/<?=$projectImgDir?>/routeTri.png"
+                 title="Route 'propre'"
                  onclick="openModal(this.src, this.title)"
                  alt="Image 2">
         </div>
         <div class="galleryItem trains">
-            <img src="../ressources/img/<?=$projectImgDir?>/scoreTrains.png"
-                 title="Tableau de score IHM Trains"
+            <img src="../ressources/img/<?=$projectImgDir?>/routesTri.png"
+                 title="Listes des routes"
                  onclick="openModal(this.src, this.title)"
                  alt="Image 3">
         </div>
@@ -86,40 +86,22 @@
 
         <div class="galleryContainer">
             <div class="galleryItem php">
-                <img src="../ressources/img/<?=$projectImgDir?>/maven.png"
-                     title="Structure Projet Maven"
+                <img src="../ressources/img/<?=$projectImgDir?>/structTri.png"
+                     title="Structure MVCS du Projet"
                      onclick="openModal(this.src, this.title)"
                      alt="Image 4">
             </div>
             <div class="galleryItem php">
-                <img src="../ressources/img/<?=$projectImgDir?>/junit.png"
-                     title="Tests avec JUnit"
+                <img src="../ressources/img/<?=$projectImgDir?>/autowire.png"
+                     title="Fichier de configuration du conteneur de dépendances (avec autowiring)"
                      onclick="openModal(this.src, this.title)"
                      alt="Image 5">
             </div>
             <div class="galleryItem php">
-                <img src="../ressources/img/<?=$projectImgDir?>/effets.png"
-                     title="Enum. sur les effets de cartes"
+                <img src="../ressources/img/<?=$projectImgDir?>/routeCodeTri.png"
+                     title="Exemple d'implémentation de routage par attribut"
                      onclick="openModal(this.src, this.title)"
                      alt="Image 6">
-            </div>
-            <div class="galleryItem php">
-                <img src="../ressources/img/<?=$projectImgDir?>/coloGloutonne.png"
-                     title="Algo coloration gloutonne"
-                     onclick="openModal(this.src, this.title)"
-                     alt="Image 7">
-            </div>
-            <div class="galleryItem php">
-                <img src="../ressources/img/<?=$projectImgDir?>/bindings.png"
-                     title="Bindings dans 'VueJoueurCourant'"
-                     onclick="openModal(this.src, this.title)"
-                     alt="Image 8">
-            </div>
-            <div class="galleryItem php">
-                <img src="../ressources/img/<?=$projectImgDir?>/executable.png"
-                     title="Executable TRAINS"
-                     onclick="openModal(this.src, this.title)"
-                     alt="Image 9">
             </div>
         </div>
         <!-- Modal for Image Display -->
