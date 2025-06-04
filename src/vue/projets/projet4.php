@@ -1,6 +1,6 @@
 <link href="../ressources/scss/projet.css" rel="stylesheet">
 
-<a class="boutonBack" href="router.php?action=afficherProjets&controleur=base">Revenir en arrière</a>
+<a class="boutonBack" href="router.php?action=afficherProjets&controleur=base">Revenir aux projets</a>
 <?php $projectImgDir = "mango" ?>
 <div class="conteneurProjet">
     <h1 class="titreProjet">Projet Race against the Fly</h1>

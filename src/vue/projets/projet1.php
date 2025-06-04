@@ -1,6 +1,6 @@
 <link href="../ressources/scss/projet.css" rel="stylesheet">
 
-<a class="boutonBack" href="router.php?action=afficherProjets&controleur=base">Revenir en arrière</a>
+<a class="boutonBack" href="router.php?action=afficherProjets&controleur=base">Revenir aux projets</a>
 <div class="conteneurProjet">
     <h1 class="titreProjet">NDI 2024</h1>
 

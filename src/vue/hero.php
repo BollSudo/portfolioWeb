@@ -9,19 +9,18 @@
             </div>
             <div id="leftContainer" class="d-flex col-sm-11 col-md-8 col-lg-8">
                 <div class="contentBannerBox row">
-                    <h1 class="heroTitle col-12 d-flex align-items-center">>Julien RENAUD</h1>
+                    <div class="heroTitle">
+                        <h1 class="col-12 d-flex align-items-center hack">>Julien RENAUD</h1>
+                    </div>
                     <div class="heroBioContainer col-12 d-flex flex-column">
                         <p class="heroBioText">
                             Hi! Je suis actuellement étudiant en 2e année de BUT Informatique à l'IUT de Montpellier. J’entreprends une spécialité dans le développement d’application en suivant le parcours Réalisation d'Applications, Conception, Développement et Validation (RACDV).
                         </p>
                         <p class="heroBioText">
-                            Ce qui me passionne, c’est notamment de concevoir et développer des applications qui transforment des données brutes en visualisation ergonomique, accessible et compréhensible de tous.
+                            Ma passion consiste à allier mon intérêt pour les systèmes physiques avec mes compétences en informatique. J’ai découvert l’informatique en développant des scripts <a href="https://www.python.org/about/" target="_blank">Python</a> permettant de visualiser des systèmes physiques simples, comme des pendules simples ou doubles, ou encore des systèmes à N corps. Progressivement, je me suis spécialisé dans les systèmes informatiques, que j’aime déconstruire et analyser pour en comprendre en profondeur le fonctionnement. C’est pourquoi, dans chacun de mes projets, je m’assure de bien maîtriser les systèmes et composants sur lesquels je travaille, afin de produire un code propre, robuste et de qualité.
                         </p>
                         <p class="heroBioText">
-                            Une de mes occupations, c'est de combiner ma passion pour les systèmes physiques et mes connaissances en Informatique. J'ai découvert l'Informatique en créant des scripts <a href="">Python</a> permettant la visualisation de systèmes physiques simples (pendules simples, doubles, système à N corps...). Je me suis spécialisé de plus en plus dans les systèmes informatiques que j'aime decomposer et décortiquer pour comprendre leur fonctionnement. Un des projets que j'ai aimé réaliser est le développement d'un moteur de jeu 2D en partant de zéro <a href="">OPENGL</a>, dans lequel j'ai découvert de nombreux concepts qui m'animent : les Shaders, le Rendering, la Physique...
-                        </p>
-                        <p class="heroBioText">
-                            Minutieux, j'aime m'assurer que les applications que je développe soit agréable et ergonomique tout en assurant leurs fonctionnalités. Plongé dans l'informatique, je ne me lasse jamais à découvrir de nouvelles technologies ou de nouveaux langages. Mes dernières découvertes passionnantes étant <a href="">React</a> et <a href="">THREE.JS</a>.
+                            Minutieux, j'aime aussi m'assurer que les applications que je développe soit agréable et ergonomique tout en assurant leurs fonctionnalités. Plongé dans l'informatique, je ne me lasse jamais à découvrir de nouvelles technologies ou de nouveaux langages. Mes dernières découvertes passionnantes étant <a href="https://fr.react.dev/" target="_blank">React</a> et <a href="https://threejs.org/" target="_blank">Three.js</a>.
                         </p>
                         <p class="heroBioText">
                             En ce qui concerne mes études, je compte terminer ma formation et poursuivre mes études en école d'ingénieur ou en Master. Le domaine me reste encore incertain. En-dehors des études, je suis un aficionado du badminton et du volley ! Je m'intéresse constamment aux dernières nouveautés technologiques, à l'espace et la culture japonaise. 💻🪐🌸🏸🏐

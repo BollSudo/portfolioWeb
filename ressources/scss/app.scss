@@ -150,6 +150,7 @@ main {
 
 .heroTitle {
   padding: 5% 10% 0 10%;
+  color: $link-color;
 }
 
 .heroBioContainer {
@@ -262,7 +263,7 @@ main {
 
 .sticky-button-container button {
   pointer-events: auto;
-  background: #4f46e5;
+  background: $link-color;
   color: white;
   border: none;
   padding: 0.75rem 1.5rem;
@@ -274,6 +275,24 @@ main {
 }
 
 .sticky-button-container button:hover {
-  background: #3730a3;
+  background: #6e6600;
 }
 
+.hack {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 14s steps(24) infinite, blink 0.7s step-end infinite;
+}
+
+
+@keyframes typing {
+  0% { width: 0 }
+  14.3% { width: 14ch }
+  85.7% { width: 14ch }
+  100% { width: 0 }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
