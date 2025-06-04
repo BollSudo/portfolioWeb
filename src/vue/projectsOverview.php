@@ -64,7 +64,7 @@
             <div class="inner">
                 <div class="projectInfo">
                     <div class="codeLang">
-                        <img class="codeLogo" src="../ressources/img/logo-code/logo-python.png" alt="logo Java" title="JAVA">
+                        <img class="codeLogo" src="../ressources/img/logo-code/logo-python.png" alt="logo Python" title="Python">
                     </div>
                     <h2 class="cardTitle">Race against the fly</h2>
                     <h3 class="cardSubtitle">2025</h3>
@@ -85,11 +85,11 @@
                             <img class="codeLogo" src="../ressources/img/logo-code/logo-css3.svg" alt="logo CSS3" title="CSS3">
                             <img class="codeLogo" src="../ressources/img/logo-code/logo-js.png" alt="logo JS" title="JS">
                             <img class="codeLogo" src="../ressources/img/logo-code/logo-php.svg" alt="logo PHP" title="PHP">
+                            <img class="codeLogo" src="../ressources/img/logo-code/logo-docker.png" alt="logo Docker" title="Docker">
                         </div>
                     </div>
                     <h2 class="cardTitle">Very Bad Split</h2>
-                    <h3 class="cardSubtitle">2025</h3>
-                    <img src="../ressources/img/ico-sablier.png" alt="logo TRAINS">
+                    <h3 class="cardSubtitle">2025 (en cours)</h3>
                 </div>
             </div>
         </a>
@@ -109,7 +109,7 @@
                         <img class="codeLogo" src="../ressources/img/logo-code/logo-symfony.png" alt="logo Symfony" title="Symfony">
                     </div>
                     <h2 class="cardTitle">GoPetSit™</h2>
-                    <h3 class="cardSubtitle">2025 (En cours)</h3>
+                    <h3 class="cardSubtitle">2025 (en cours)</h3>
                 </div>
             </div>
         </a>

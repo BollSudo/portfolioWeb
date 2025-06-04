@@ -33,9 +33,9 @@
                             <a href="https://www.linkedin.com/in/renaudj" title="LinkedIn Profile" class="fa d-flex align-items-center justify-content-center">
                                 <span class="fa-linkedin"></span>
                             </a>
-                            <a href="#" class="fa d-flex align-items-center justify-content-center">
-                                <span class="fa-gitlab"></span>
-                            </a>
+<!--                            <a href="#" class="fa d-flex align-items-center justify-content-center">-->
+<!--                                <span class="fa-gitlab"></span>-->
+<!--                            </a>-->
                             <a href="mailto:julien.renaud1212@gmail.com" title="Envoyer mail" class="fa d-flex align-items-center justify-content-center">
                                 <span class="fa-google"></span>
                             </a>

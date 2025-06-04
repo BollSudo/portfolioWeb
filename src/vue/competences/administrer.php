@@ -21,7 +21,8 @@
                 de travail</h3>
 
             <p class="competenceDescription">
-                Lors de ma première année de BUT Informatique, j’ai appris à installer et configurer un poste de travail en créant une <b>clé USB bootable</b> pour installer une distribution <i>Linux</i> (<i>Ubuntu</i> avec l’interface GNOME), en <b>dual-boot</b> avec <i>Windows</i> ou dans une <b>machine virtuelle</b> via <i>VirtualBox</i>. L’environnement de travail mis en place comprenait des dossiers partagés entre les systèmes, des outils de développement tels que le JDK, ainsi que des éditeurs de code comme <i>Visual Studio Code</i>. J’ai également rédigé une <a href="../ressources/pdf/saeLinux.pdf" target="_blank">notice</a> d’installation et de comparaison entre les deux configurations (dual-boot et VM), en analysant leurs avantages et inconvénients.
+                Lors de ma première année de BUT Informatique, j’ai appris à installer et configurer un poste de travail en créant une <b>clé USB bootable</b> pour installer une distribution <i>Linux</i> (<i>Ubuntu</i> avec l’interface GNOME), en <b>dual-boot</b> avec <i>Windows</i> ou dans une <b>machine virtuelle</b> via <i>VirtualBox</i>. L’environnement de travail mis en place comprenait des dossiers partagés entre les systèmes, des outils de développement tels que le JDK, ainsi que des éditeurs de code comme <i>Visual Studio Code</i>. J’ai également rédigé une <a href="../ressources/pdf/saeLinux.pdf" target="_blank">notice</a> d’installation et de comparaison entre les deux configurations (dual-boot et VM), en analysant leurs avantages et inconvénients. Par ailleurs, j'ai su installer et configurer une <b>pile LAMP</b> sur une poste de travail, en rédigant une <a href="../ressources/pdf/saeLAMP.pdf" target="_blank">notice</a> d'installation. La pile représente un groupement de paquet logiciels open-source qui permettent de créer, d’héberger et de gérer des sites web dynamiques. Cette pratique m’a permis d’identifier les
+                fonctionnalités et le rôle de chacun des composants de la pile, et m’a permis de découvrir les différents outils et paramétrages à respecter pour assurer une installation fonctionnelle et sécurisée (ne pas donner l’accès root à la BD, créer un utilisateur <i>Apache</i> dédié, et sécuriser le site web par une authentification ou un certificat…)
             </p>
 
             <p class="competenceDescription">
@@ -61,35 +62,36 @@
                         développement</li>
                     <li class="acItem">AC4 - Configurer un poste de travail dans un réseau d’entreprise</li>
                 </ul>
+            </div>
 
-                <h3 id="niveau2" class="competenceTitle administrer">Niveau 2 : Déployer des services dans une architecture réseau</h3>
+            <h3 id="niveau2" class="competenceTitle administrer">Niveau 2 : Déployer des services dans une architecture réseau</h3>
 
-                <p class="competenceDescription">
-                    La deuxième année de BUT Informatique m'a permis de développer des compétences techniques en virtualisation.
-                    J'ai ainsi appris à approfondir mes connaissances sur des outils de virtualisation tels que <i>VirtualBox</i>, <i>VMware Workstation</i> et <i>Hyper-V</i>. Avec ces outils, j'ai pu concevoir des <b>environnemts virtuels</b> dans lesquels j'ai pu configurer des <b>services</b> de manière sécurisée (serveurs web, base de données, serveur ssh, etc.) et tester mes applications.
-                </p>
-                <p class="competenceDescription">
-                    Par ailleurs, la découverte de <i>Docker</i> m'a permis de maitriser la <b>conteneurisation</b> des applications et des services que je développe et de les rendre <b>portables</b>. Le projet <a href="router.php?action=afficherProjet&controleur=base&numProjet=5">Very Bad Split</a> m'a notemment permis d'appliquer cela, en conteneurisant une application web avec l'utilisation d'un <b>dockerfile</b>, de <b>docker-compose</b> et d'un <b>makefile</b> pour la configuration des differents services (serveur web <i>Apache</i>, base de données <i>MariaDB</i>, et gestionnaire de migrations <i>Flyway</i>) et la simplification de leur déploiement.
-                </p>
+            <p class="competenceDescription">
+                La deuxième année de BUT Informatique m'a permis de développer des compétences techniques en virtualisation.
+                J'ai ainsi appris à approfondir mes connaissances sur des outils de virtualisation tels que <i>VirtualBox</i>, <i>VMware Workstation</i> et <i>Hyper-V</i>. Avec ces outils, j'ai pu concevoir des <b>environnemts virtuels</b> dans lesquels j'ai pu configurer des <b>services</b> de manière sécurisée (serveurs web, base de données, serveur ssh, etc.) et tester mes applications.
+            </p>
+            <p class="competenceDescription">
+                Par ailleurs, la découverte de <i>Docker</i> m'a permis de maitriser la <b>conteneurisation</b> des applications et des services que je développe et de les rendre <b>portables</b>. Le projet <a href="router.php?action=afficherProjet&controleur=base&numProjet=5">Very Bad Split</a> m'a notemment permis d'appliquer cela, en conteneurisant une application web avec l'utilisation d'un <b>dockerfile</b>, de <b>docker-compose</b> et d'un <b>makefile</b> pour la configuration des differents services (serveur web <i>Apache</i>, base de données <i>MariaDB</i>, et gestionnaire de migrations <i>Flyway</i>) et la simplification de leur déploiement.
+            </p>
 
-                <p class="competenceDescription">
-                    J'ai pu aussi apprendre durant le projet <a href="router.php?action=afficherProjet&controleur=base&numProjet=5">Very Bad Split</a> à identifer les différentes failles de sécurité d'une application web et d'effectruer un <b>audit de sécurité</b>, avant de corriger et améliorer l'application. Les projets <a href="router.php?action=afficherProjet&controleur=base&numProjet=5">Very Bad Split</a>, <a href="router.php?action=afficherProjet&controleur=base&numProjet=2">StudAdvisor</a> et <a href="router.php?action=afficherProjet&controleur=base&numProjet=6">GoPetSit™</a> m'ont permis d'analyser l'aspect sécuritaire d'une application web. J'ai pu ensuite implémenter divers techniques de sécuriation d'un site web comme l'utilisation de <b>requêtes préparées</b> pour la protection contre les <b>injections SQL</b>, l'échapement des balises pour parier contre les <b>injections XSS</b>, la sécurisation des cookies et des sessions, l'utilisation de <b>token CSRF</b>, <b>hachage et salage</b> de mots de passe et l'utilisation de <b>nonces</b> pour la récupération de mots de passe. La considération des diverses normes <b>RGPD</b> et l'acquisition des <a href="../ressources/pdf/CNIL_certifs.pdf" target="_blank">certificats</a> de <b>l'atelier RGPD du CNIL</b> me permet d'appréhender davantage l'aspect sécuritaire de mes projets.
-                </p>
+            <p class="competenceDescription">
+                J'ai pu aussi apprendre durant le projet <a href="router.php?action=afficherProjet&controleur=base&numProjet=5">Very Bad Split</a> à identifer les différentes failles de sécurité d'une application web et d'effectruer un <b>audit de sécurité</b>, avant de corriger et améliorer l'application. Les projets <a href="router.php?action=afficherProjet&controleur=base&numProjet=5">Very Bad Split</a>, <a href="router.php?action=afficherProjet&controleur=base&numProjet=2">StudAdvisor</a> et <a href="router.php?action=afficherProjet&controleur=base&numProjet=6">GoPetSit™</a> m'ont permis d'analyser l'aspect sécuritaire d'une application web. J'ai pu ensuite implémenter divers techniques de sécuriation d'un site web comme l'utilisation de <b>requêtes préparées</b> pour la protection contre les <b>injections SQL</b>, l'échapement des balises pour parier contre les <b>injections XSS</b>, la sécurisation des cookies et des sessions, l'utilisation de <b>token CSRF</b>, <b>hachage et salage</b> de mots de passe et l'utilisation de <b>nonces</b> pour la récupération de mots de passe. La considération des diverses normes <b>RGPD</b> et l'acquisition des <a href="../ressources/pdf/CNIL_certifs.pdf" target="_blank">certificats</a> de <b>l'atelier RGPD du CNIL</b> me permet d'appréhender davantage l'aspect sécuritaire de mes projets.
+            </p>
 
-                <p class="competenceDescription">
-                    Finalement, lors de mon stage de trois mois en entreprise au <a href="https://www.cirad.fr/">CIRAD</a>, j'ai eu l'occasion de configurer mon poste de travail informatique relié au réseau de l'entreprise en y installant les outils nécessaires au bon déroulement du projet
-                    <a href="router.php?action=afficherProjet&controleur=base&numProjet=4">Race against the Fly</a>.
-                </p>
+            <p class="competenceDescription">
+                Finalement, lors de mon stage de trois mois en entreprise au <a href="https://www.cirad.fr/">CIRAD</a>, j'ai eu l'occasion de configurer mon poste de travail informatique relié au réseau de l'entreprise en y installant les outils nécessaires au bon déroulement du projet
+                <a href="router.php?action=afficherProjet&controleur=base&numProjet=4">Race against the Fly</a>.
+            </p>
 
-                <div class="competenceListes">
-                    <h4 class="acTitle">Apprentissages critiques</h4>
-                    <ul class="acList">
-                        <li class="acItem">AC1 - Concevoir et développer des applications communicantes
-                        </li>
-                        <li class="acItem">AC2 - Utiliser des serveurs et des services réseaux virtualisés</li>
-                        <li class="acItem">AC3 - Sécuriser les services et données d'un système</li>
-                        <li class="acItem">AC4 - Configurer un poste de travail dans un réseau d’entreprise</li>
-                    </ul>
+            <div class="competenceListes">
+                <h4 class="acTitle">Apprentissages critiques</h4>
+                <ul class="acList">
+                    <li class="acItem">AC1 - Concevoir et développer des applications communicantes
+                    </li>
+                    <li class="acItem">AC2 - Utiliser des serveurs et des services réseaux virtualisés</li>
+                    <li class="acItem">AC3 - Sécuriser les services et données d'un système</li>
+                    <li class="acItem">AC4 - Configurer un poste de travail dans un réseau d’entreprise</li>
+                </ul>
             </div>
         </div>
     </div>

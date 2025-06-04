@@ -29,6 +29,7 @@
 }
 
 .sideMenuCompetences {
+    z-index: 3;
     position: sticky;
     top: $header-height;
     align-self: flex-start; /* Ensures sticky works inside flex container */

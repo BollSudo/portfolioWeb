@@ -1,27 +1,34 @@
 <section class="timeline-section">
-    <h2>My Journey</h2>
+    <h2>Mon parcours</h2>
     <div class="timeline">
         <div class="timeline-item left">
             <div class="timeline-content">
-                <h3>2024 – Present</h3>
-                <h4>Software Engineer @ TechCorp</h4>
-                <p>Building scalable systems with Node.js and PostgreSQL.</p>
+                <h3>2023 – 2026</h3>
+                <h4>IUT de Montpellier-Sète</h4>
+                <p>BUT Informatique - RACDV</p>
             </div>
         </div>
 
         <div class="timeline-item right">
             <div class="timeline-content">
-                <h3>2022 – 2024</h3>
-                <h4>Freelance Developer</h4>
-                <p>Developed web apps using Laravel and Vue.js.</p>
+                <h3>Janvier - Avril 2025</h3>
+                <h4>Développeur logiciel au CIRAD</h4>
+                <p>Informatisation du jeu sérieux "Course contre la mouche" sous <i>Python</i>.</p>
             </div>
         </div>
 
         <div class="timeline-item left">
             <div class="timeline-content">
-                <h3>2020 – 2022</h3>
-                <h4>DUT Informatique @ IUT Montpellier</h4>
-                <p>Learned software, databases, and networking fundamentals.</p>
+                <h3>2020 – 2023</h3>
+                <h4>Université de Montpellier</h4>
+                <p>Licence Physique Fondamentale</p>
+            </div>
+        </div>
+
+        <div class="timeline-item right">
+            <div class="timeline-content">
+                <h4>Lycée Louis-Antoine de Bougainville</h4>
+                <p>BAC Scientifique S-SVT spécialité Mathématiques</p>
             </div>
         </div>
 

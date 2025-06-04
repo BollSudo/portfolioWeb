@@ -67,9 +67,24 @@
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-.timeline-content h3, .timeline-content h4 {
+.timeline-content h4 {
   color: $link-color;
 }
+
+.timeline-content h3 {
+  color: $secondary;
+  font-size: 1.2rem;
+}
+
+.timeline-section > h2 {
+  margin: 0 auto 1rem auto;
+  width: fit-content;
+  background: $primary;
+  border: solid 2px rgba(45, 45, 154, 0.18);
+  border-radius: 0.5rem;
+  padding: 10px;
+}
+
 
 /* Mobile Responsive */
 @media screen and (max-width: 768px) {
